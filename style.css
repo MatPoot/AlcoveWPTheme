@@ -1,0 +1,362 @@
+/* @font-face {
+    font-family: MinionPro;
+    src: url(http://localhost/wordpress/wp-content/themes/alcove/fonts/MinionPro-Regular.otf);
+    font-weight: normal;
+} */
+
+@import url("https://use.typekit.net/atw6vjb.css");
+
+/* 
+my styles */
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: proxima-soft, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #88423c;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+}
+
+.site-content {
+    margin-bottom: 10%;
+}
+
+.headerimg {
+    width: 100%;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.extendbottom {
+    min-height: 80vh;
+}
+
+html,
+body,
+.navbarcolour {
+    background-color: #eccfc2;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.aboutusimageblock {
+    display: block;
+}
+
+.aboutustextblock>h4,
+h3 {
+    margin: 0 auto;
+}
+
+.aboutustextblock>ul>li>h4,
+p {}
+
+.textblocktext {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.textblockcolour {
+    background-color: #fefbea;
+}
+
+.textblockcolouralt {
+    background-color: #eccfc2;
+}
+
+.centerblock {
+    margin: 0 auto;
+}
+
+.fulllength {
+    height: 100%;
+}
+
+.site-footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #383432;
+}
+
+.site-footer p {
+    color: #a59b96;
+}
+
+.borderroundboxes {
+    border-style: solid;
+    border-color: #94887e;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+.buttonimg {
+    max-width: 35%;
+    margin: 0 auto;
+    display: block;
+}
+
+.safebutton {
+    right: 0;
+}
+
+.footerimg {
+    max-width: 50%;
+    margin-left: 37px;
+    display: block;
+}
+
+.custom-logo {
+    max-width: 90%;
+    max-height: 150px;
+}
+
+.footericon {
+    width: 40%;
+    display: block;
+}
+
+.buttonimg2 {
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bigbutton {
+    border-style: solid;
+    border-color: #94887e;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.greyborderrounded {
+    border-style: solid;
+    border-color: #94887e;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.mainimage {
+    max-width: 100%;
+}
+
+.safeexit {
+    background-color: #a1be94;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.menu>li {
+    margin-right: 1%;
+}
+
+.textboxposition {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.textboxposition1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.donate-button {
+    background-color: #fefbea;
+    width: 160px;
+    height: 35px;
+    color: #eccfc2;
+    border: 2px solid #7c7b7b;
+    border-radius: 12px;
+    color: #c65151;
+}
+
+.admission-button {
+    background-color: #fefbea;
+    width: 160px;
+    height: 35px;
+    color: #eccfc2;
+    border: 2px solid #7c7b7b;
+    border-radius: 12px;
+    color: #c65151;
+    float: right;
+}
+
+.support-companies {
+    background-color: #fff;
+}
+
+.movetextright>h3,
+h4 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.company {
+    display: block;
+}
+
+.company img {
+    vertical-align: baseline;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.sub-menu>li>a {
+    text-decoration: none;
+}
+
+.dil {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.contact-bottom {
+    border: 1px solid black;
+    padding: 10px 20px !important;
+}
+
+.contact-bottom p {
+    font-style: italic;
+}
+
+.contact-bottom p:last-child {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-border {
+    border: 1px solid #2e2e30;
+}
+
+#menu-item-92>a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#menu-item-86>a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#menu-item-89>a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#menu-item-78>a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima-soft, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+#menu-item-73:hover .sub-menu {
+    display: block !important;
+    z-index: 99;
+    position: absolute;
+    text-decoration: none;
+    background-color: #eccfc2;
+    text-align: center;
+}
+
+#menu-item-92,
+#menu-item-86,
+#menu-item-89 {
+    margin-right: 4vh;
+}
+
+@media only screen and (orientation: portrait) {
+    .site-content {
+        margin-top: 30vh;
+    }
+    .video {
+        display: none;
+    }
+    /* .centerheart {
+        margin-top: auto;
+    } */
+}
+
+@media only screen and (orientation: landscape) {
+    .site-content {
+        margin-top: 10%;
+    }
+    .video {
+        display: initial;
+    }
+}
+
+
+/* .centerheart {
+    margin-top: 25%;
+    max-width: 30%;
+    margin: 0 auto;
+    display: block;
+} */
+
+.blockcolourtwo {
+    background-color: #f7e7de;
+}
